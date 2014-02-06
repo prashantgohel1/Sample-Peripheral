@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB32B1B3189776E400DDFCFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB32B1B2189776E400DDFCFE /* Foundation.framework */; };
+		BB32B1B5189776E400DDFCFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB32B1B4189776E400DDFCFE /* CoreGraphics.framework */; };
+		BB32B1B7189776E400DDFCFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB32B1B6189776E400DDFCFE /* UIKit.framework */; };
+		BB32B1BD189776E400DDFCFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB32B1BB189776E400DDFCFE /* InfoPlist.strings */; };
+		BB32B1BF189776E400DDFCFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB32B1BE189776E400DDFCFE /* main.m */; };
+		BB32B1C3189776E400DDFCFE /* ISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB32B1C2189776E400DDFCFE /* ISAppDelegate.m */; };
+		BB32B1C5189776E400DDFCFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB32B1C4189776E400DDFCFE /* Images.xcassets */; };
+		BB32B1CC189776E400DDFCFE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB32B1CB189776E400DDFCFE /* XCTest.framework */; };
+		BB32B1CD189776E400DDFCFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB32B1B2189776E400DDFCFE /* Foundation.framework */; };
+		BB32B1CE189776E400DDFCFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB32B1B6189776E400DDFCFE /* UIKit.framework */; };
+		BB32B1D6189776E400DDFCFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB32B1D4189776E400DDFCFE /* InfoPlist.strings */; };
+		BB32B1D8189776E400DDFCFE /* Sample_PeripheralTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB32B1D7189776E400DDFCFE /* Sample_PeripheralTests.m */; };
+		BB32B1E2189776FD00DDFCFE /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB32B1E1189776FD00DDFCFE /* CoreBluetooth.framework */; };
+		BB32B1E6189777F400DDFCFE /* ISMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB32B1E4189777F400DDFCFE /* ISMainViewController.m */; };
+		BB32B1E7189777F400DDFCFE /* ISMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB32B1E5189777F400DDFCFE /* ISMainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB32B1CF189776E400DDFCFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB32B1A7189776E400DDFCFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB32B1AE189776E400DDFCFE;
+			remoteInfo = "Sample Peripheral";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB32B1AF189776E400DDFCFE /* Sample Peripheral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample Peripheral.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB32B1B2189776E400DDFCFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB32B1B4189776E400DDFCFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB32B1B6189776E400DDFCFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB32B1BA189776E400DDFCFE /* Sample Peripheral-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sample Peripheral-Info.plist"; sourceTree = "<group>"; };
+		BB32B1BC189776E400DDFCFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB32B1BE189776E400DDFCFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB32B1C0189776E400DDFCFE /* Sample Peripheral-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sample Peripheral-Prefix.pch"; sourceTree = "<group>"; };
+		BB32B1C1189776E400DDFCFE /* ISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISAppDelegate.h; sourceTree = "<group>"; };
+		BB32B1C2189776E400DDFCFE /* ISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISAppDelegate.m; sourceTree = "<group>"; };
+		BB32B1C4189776E400DDFCFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB32B1CA189776E400DDFCFE /* Sample PeripheralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sample PeripheralTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB32B1CB189776E400DDFCFE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BB32B1D3189776E400DDFCFE /* Sample PeripheralTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sample PeripheralTests-Info.plist"; sourceTree = "<group>"; };
+		BB32B1D5189776E400DDFCFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB32B1D7189776E400DDFCFE /* Sample_PeripheralTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sample_PeripheralTests.m; sourceTree = "<group>"; };
+		BB32B1E1189776FD00DDFCFE /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		BB32B1E3189777F400DDFCFE /* ISMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISMainViewController.h; sourceTree = "<group>"; };
+		BB32B1E4189777F400DDFCFE /* ISMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISMainViewController.m; sourceTree = "<group>"; };
+		BB32B1E5189777F400DDFCFE /* ISMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISMainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB32B1AC189776E400DDFCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB32B1E2189776FD00DDFCFE /* CoreBluetooth.framework in Frameworks */,
+				BB32B1B5189776E400DDFCFE /* CoreGraphics.framework in Frameworks */,
+				BB32B1B7189776E400DDFCFE /* UIKit.framework in Frameworks */,
+				BB32B1B3189776E400DDFCFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB32B1C7189776E400DDFCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB32B1CC189776E400DDFCFE /* XCTest.framework in Frameworks */,
+				BB32B1CE189776E400DDFCFE /* UIKit.framework in Frameworks */,
+				BB32B1CD189776E400DDFCFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB32B1A6189776E400DDFCFE = {
+			isa = PBXGroup;
+			children = (
+				BB32B1B8189776E400DDFCFE /* Sample Peripheral */,
+				BB32B1D1189776E400DDFCFE /* Sample PeripheralTests */,
+				BB32B1B1189776E400DDFCFE /* Frameworks */,
+				BB32B1B0189776E400DDFCFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB32B1B0189776E400DDFCFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB32B1AF189776E400DDFCFE /* Sample Peripheral.app */,
+				BB32B1CA189776E400DDFCFE /* Sample PeripheralTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB32B1B1189776E400DDFCFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB32B1E1189776FD00DDFCFE /* CoreBluetooth.framework */,
+				BB32B1B2189776E400DDFCFE /* Foundation.framework */,
+				BB32B1B4189776E400DDFCFE /* CoreGraphics.framework */,
+				BB32B1B6189776E400DDFCFE /* UIKit.framework */,
+				BB32B1CB189776E400DDFCFE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB32B1B8189776E400DDFCFE /* Sample Peripheral */ = {
+			isa = PBXGroup;
+			children = (
+				BB32B1C1189776E400DDFCFE /* ISAppDelegate.h */,
+				BB32B1C2189776E400DDFCFE /* ISAppDelegate.m */,
+				BB32B1C4189776E400DDFCFE /* Images.xcassets */,
+				BB32B1B9189776E400DDFCFE /* Supporting Files */,
+				BB32B1E3189777F400DDFCFE /* ISMainViewController.h */,
+				BB32B1E4189777F400DDFCFE /* ISMainViewController.m */,
+				BB32B1E5189777F400DDFCFE /* ISMainViewController.xib */,
+			);
+			path = "Sample Peripheral";
+			sourceTree = "<group>";
+		};
+		BB32B1B9189776E400DDFCFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB32B1BA189776E400DDFCFE /* Sample Peripheral-Info.plist */,
+				BB32B1BB189776E400DDFCFE /* InfoPlist.strings */,
+				BB32B1BE189776E400DDFCFE /* main.m */,
+				BB32B1C0189776E400DDFCFE /* Sample Peripheral-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB32B1D1189776E400DDFCFE /* Sample PeripheralTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB32B1D7189776E400DDFCFE /* Sample_PeripheralTests.m */,
+				BB32B1D2189776E400DDFCFE /* Supporting Files */,
+			);
+			path = "Sample PeripheralTests";
+			sourceTree = "<group>";
+		};
+		BB32B1D2189776E400DDFCFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB32B1D3189776E400DDFCFE /* Sample PeripheralTests-Info.plist */,
+				BB32B1D4189776E400DDFCFE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB32B1AE189776E400DDFCFE /* Sample Peripheral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB32B1DB189776E400DDFCFE /* Build configuration list for PBXNativeTarget "Sample Peripheral" */;
+			buildPhases = (
+				BB32B1AB189776E400DDFCFE /* Sources */,
+				BB32B1AC189776E400DDFCFE /* Frameworks */,
+				BB32B1AD189776E400DDFCFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sample Peripheral";
+			productName = "Sample Peripheral";
+			productReference = BB32B1AF189776E400DDFCFE /* Sample Peripheral.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB32B1C9189776E400DDFCFE /* Sample PeripheralTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB32B1DE189776E400DDFCFE /* Build configuration list for PBXNativeTarget "Sample PeripheralTests" */;
+			buildPhases = (
+				BB32B1C6189776E400DDFCFE /* Sources */,
+				BB32B1C7189776E400DDFCFE /* Frameworks */,
+				BB32B1C8189776E400DDFCFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB32B1D0189776E400DDFCFE /* PBXTargetDependency */,
+			);
+			name = "Sample PeripheralTests";
+			productName = "Sample PeripheralTests";
+			productReference = BB32B1CA189776E400DDFCFE /* Sample PeripheralTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB32B1A7189776E400DDFCFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ISC;
+				TargetAttributes = {
+					BB32B1C9189776E400DDFCFE = {
+						TestTargetID = BB32B1AE189776E400DDFCFE;
+					};
+				};
+			};
+			buildConfigurationList = BB32B1AA189776E400DDFCFE /* Build configuration list for PBXProject "Sample Peripheral" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB32B1A6189776E400DDFCFE;
+			productRefGroup = BB32B1B0189776E400DDFCFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB32B1AE189776E400DDFCFE /* Sample Peripheral */,
+				BB32B1C9189776E400DDFCFE /* Sample PeripheralTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB32B1AD189776E400DDFCFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB32B1BD189776E400DDFCFE /* InfoPlist.strings in Resources */,
+				BB32B1E7189777F400DDFCFE /* ISMainViewController.xib in Resources */,
+				BB32B1C5189776E400DDFCFE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB32B1C8189776E400DDFCFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB32B1D6189776E400DDFCFE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB32B1AB189776E400DDFCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB32B1C3189776E400DDFCFE /* ISAppDelegate.m in Sources */,
+				BB32B1E6189777F400DDFCFE /* ISMainViewController.m in Sources */,
+				BB32B1BF189776E400DDFCFE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB32B1C6189776E400DDFCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB32B1D8189776E400DDFCFE /* Sample_PeripheralTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB32B1D0189776E400DDFCFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB32B1AE189776E400DDFCFE /* Sample Peripheral */;
+			targetProxy = BB32B1CF189776E400DDFCFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB32B1BB189776E400DDFCFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB32B1BC189776E400DDFCFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB32B1D4189776E400DDFCFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB32B1D5189776E400DDFCFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB32B1D9189776E400DDFCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB32B1DA189776E400DDFCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB32B1DC189776E400DDFCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Manish Mistry (MA9M495968)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample Peripheral/Sample Peripheral-Prefix.pch";
+				INFOPLIST_FILE = "Sample Peripheral/Sample Peripheral-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB32B1DD189776E400DDFCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Manish Mistry (MA9M495968)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample Peripheral/Sample Peripheral-Prefix.pch";
+				INFOPLIST_FILE = "Sample Peripheral/Sample Peripheral-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BB32B1DF189776E400DDFCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sample Peripheral.app/Sample Peripheral";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample Peripheral/Sample Peripheral-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sample PeripheralTests/Sample PeripheralTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BB32B1E0189776E400DDFCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sample Peripheral.app/Sample Peripheral";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample Peripheral/Sample Peripheral-Prefix.pch";
+				INFOPLIST_FILE = "Sample PeripheralTests/Sample PeripheralTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB32B1AA189776E400DDFCFE /* Build configuration list for PBXProject "Sample Peripheral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB32B1D9189776E400DDFCFE /* Debug */,
+				BB32B1DA189776E400DDFCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB32B1DB189776E400DDFCFE /* Build configuration list for PBXNativeTarget "Sample Peripheral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB32B1DC189776E400DDFCFE /* Debug */,
+				BB32B1DD189776E400DDFCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB32B1DE189776E400DDFCFE /* Build configuration list for PBXNativeTarget "Sample PeripheralTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB32B1DF189776E400DDFCFE /* Debug */,
+				BB32B1E0189776E400DDFCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB32B1A7189776E400DDFCFE /* Project object */;
+}
